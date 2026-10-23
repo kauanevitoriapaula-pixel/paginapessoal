@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isabella Furman</title>
+<link rel="stylesheet" href="style.css">
 
+<style>
+/* seção 2026 */
+.pessoas {
+  margin-top: -35px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pessoas-titulo {
+  text-align: center;
+}
+
+/* organização fotos */
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+/* Cartões das fotos */
+.pessoas .card {
+  width: 260px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Imagens das pessoas */
+.pessoas .foto {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Ajustes para celular */
+@media (max-width: 600px) {
+  .pessoas {
+    margin-top: -20px;
+  }
+
+  .cards {
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .pessoas .card {
+    width: calc(50% - 10px);
+  }
+
+  .pessoas .foto {
+    height: 210px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Cabeçalho da página -->
+<header class="cabecalho">
+  <div class="cabecalho-conteudo">
+
+    <img class="logo" src="mulher.png" alt="Logo da página">
+
+    <h1>Isabella Furman</h1>
+
+    <div class="sociais">
+      <img src="gato.png" alt="WhatsApp">
+      <img src="brilha.png" alt="Facebook">
+      <img src="flor.png" alt="Instagram">
+    </div>
+
+  </div>
+
+  <!-- Menu de navegação -->
+  <nav class="menu">
+    <a href="index.html">Inicial</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="certificado.html">Certificados</a>
+    <a href="jogo.html">Jogo</a>
+  </nav>
+</header>
+
+<!-- Conteúdo principal da página -->
+<main>
+
+  <!-- Banner principal -->
+  <section class="banner">
+    <img src="paragrafo_1_banner.jpg" alt="Banner da página">
+  </section>
+
+  <!-- Seção das minhas pessoas favoritas -->
+  <section class="pessoas">
+
+    <h2 class="pessoas-titulo">2026</h2>
+
+    <div class="cards">
+
+      <!-- Foto minha com a Duda -->
+      <div class="card">
+        <img class="foto" src="imagem 8.jpeg" alt="Eu e Duda">
+        <h3> </h3>
+      </div>
+
+      <!-- Foto das amigas -->
+      <div class="card">
+        <img class="foto" src="imagem 7.jpeg" alt="As migas 2">
+        <h3> </h3>
+      </div>
+
+      <!-- Foto do Edu e da Mary -->
+      <div class="card">
+        <img class="foto" src="imagem 10.jpeg" alt="Edu e Mary">
+        <h3> </h3>
+      </div>
+
+      <!-- Foto laura -->
+      <div class="card">
+        <img class="foto" src="foto-nova-1.jpeg" alt="Minha foto de infância">
+        <h3> </h3>
+      </div>
+
+      <!-- Foto eu e julia -->
+      <div class="card">
+        <img class="foto" src="foto-nova-2.jpeg" alt="Foto com minha amiga">
+        <h3> </h3>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!--Rodapé da página -->
+<footer>
+
+  <img class="logo-footer" src="mulher.png" alt="Logo da página">
+
+  <h2>Mais informações entre em contato</h2>
+
+  <a href="https://wa.me/5541999999999">
+    41 9.9999-9999
+  </a>
+
+  <p>©2024 | Curso de ADS | Todos os Direitos Reservados.</p>
+
+  <p>Política de Privacidade | Proteção de dados</p>
+
+</footer>
+
+</body>
+</html>
